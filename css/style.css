@@ -1,0 +1,525 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+/*fontes*/
+@font-face {
+    font-family: 'myriadPro';
+    src: url('../font/myriad-pro/myriad-pro-8.otf');
+}
+
+@font-face {
+    font-family:'Cervino';
+    src: url('../font/cervino/Cervino-RegularCondensed.ttf');
+}
+
+
+@font-face {
+    font-family: 'nexalight';
+    src: url('../font/nex/nexa-light.otf');
+}
+
+@font-face {
+    font-family: 'mostin';
+    src: url('../font/mostin/Mostin-Black.ttf');
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main_container{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+
+/*header*/
+
+header{
+   max-width: 100vw;
+   height: 80px;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   background-color: #303030;
+   color: #fff;
+}
+
+.container_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 80px;
+}
+
+.logo img{
+    width: 70%;
+}
+
+#banner_header{
+    height: 100vh;
+    background-image: url('../img/banner_header-min.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.block_text_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 600px;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+
+    
+}
+
+.block_text_header h1{
+    font-size: max(40pt, 5vw);
+    margin-bottom: -13px;
+    font-family: myriadPro;
+}
+.block_text_header p{
+    font-size: max(12px, 2vw);
+    margin-bottom: 40px;
+    font-family: nexalight;
+    font-weight: lighter;
+    
+}
+#button_default{
+    max-width: 8rem;
+    background-color: #FF6309;
+    padding: 10px  90px 10px;
+    font-size: max(15px, 1.2vw);
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:Cervino;
+    border-radius: 3px;
+
+}
+
+.author{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    font-size: max(12px, 1.5vw);
+    font-family: myriadPro;
+    font-weight: lighter;
+}
+
+
+/*Seção 1 dance tour*/
+
+#dance_tour{
+    width: 100%;
+    background-color:#FF6309;
+    background-image: url('../img/bg_dance_tour.jpg');
+    background-repeat: no-repeat;
+    background-position: -88px -56px;
+}
+.text_tour_dance h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: max(25pt, 4vw);
+    font-family: mostin;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+   
+    
+}
+
+.text_tour_dance p{
+    font-size: max(12px, 2vw);
+    color: #fff;
+    font-family: nexalight;
+    margin-bottom: 50px;
+}
+.text_tour_dance{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.area_dance{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.widget_dance{
+    margin-bottom: 50px;
+    background-color: #303030;
+}
+/*blocos de imagem em 3 colunas dance tour*/
+
+figure{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+figure img{
+    width: 100%;
+}
+
+figcaption{
+    padding: 20px;
+}
+
+figcaption h1{
+    font-family:Cervino;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: max(25pt, 2vw);
+}
+
+figcaption p{
+    font-size: max(12px, 1.5vw);
+    font-family: nexalight;
+}
+
+
+/*Section preços*/
+
+#prices{
+    background-color: #303030;
+    background-image: url('../img/bg_piccing.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+
+.area_prices{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: #fff;
+    gap: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.widget_price{
+    padding: 30px;
+    background-color: #FF6309;
+}
+
+.widget_price #button_default{
+    background-color: #303030;
+}
+
+
+.area_prices .block_text h1{
+    font-family: mostin;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: max(25pt, 2vw);
+}
+
+.area_prices .block_text p{
+    font-size: max(12px, 1.5vw);
+    font-family: nexalight;
+}
+
+
+/*BLOCK DANCE 01*/
+#dance_area_block{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #FF6309;
+    height: 900px;
+    color: #fff;
+}
+
+
+
+.img_cover_01{
+    background-image: url('../img/img_amazing_dance.png');
+    background-size: cover;
+    background-position: center;
+    background-color: brown;
+}
+
+.img_cover_02{
+    background-image: url('../img/img_best_dance.png');
+    background-size: cover;
+    background-position: center;
+    background-color: brown;
+}
+
+.description_dance{
+    background-image: url('../img/bg_amazing.jpg');
+    background-size: cover;
+    background-color: #FF6309;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.description_dance .main_container{
+    display: flex;
+    align-items: center;
+}
+
+.description_dance h1{
+    margin: 0;
+    font-family: mostin;
+    font-size: max(25pt, 4vw);
+}
+
+.description_dance #button_default{
+    background-color: #303030;
+}
+
+.description_dance p{
+    font-family: nexalight;
+    font-size: max(12pt, 2vw);
+}
+
+
+/* section Stastick*/
+
+
+#statistics{
+    background-color: #303030;
+    color: #fff;
+}
+
+
+.count_Statistics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+
+.count_Statistics h1{
+    font-size: max(18pt, 4vw);
+    font-family: mostin;
+}
+
+.title_widget_statistics{
+    font-family: nexalight;
+    font-size: max(12px, 2vw);
+}
+.widget_statistics{
+    line-height: 10px;
+    padding-bottom: 100px;
+}
+
+.widget_statistics h1::after{
+    content: '+';
+}
+
+
+
+/*Section Herbet*/
+
+#Herbet{
+    background-image: url('../img/background-Herbert.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#Herbet .main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Herbet .text_tour_dance {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+/*SECTION SUBSCRIBE*/
+#subScribe .text_tour_dance{
+    padding-top: 150px;
+    padding-bottom: 0;
+}
+
+#subScribe{
+    background-color: #FF6309;
+    background-image: url('../img/bg_subscribe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subScribe form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+
+
+#subScribe #button_default{
+        background-color: #303030;
+}
+
+
+#subScribe form input{
+    width: 35%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+/*footer*/
+
+footer{
+    background-color:#303030;
+    color: #fff;
+}
+
+/*Responsividade*/
+
+@media (max-width: 1024px){
+
+    .area_dance{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .area_prices{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+
+    
+}
+
+
+@media (max-width: 768px){
+
+    .area_prices{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .widget_price{
+        width: 50%;
+        margin: auto;
+    }
+    
+}
+
+
+@media (max-width: 450px){
+    /*header*/
+
+    #banner_header{
+        background-position-x: -668px;
+    }
+
+    #button_default{
+        padding: 10px 50px 10px;
+    }
+
+    .area_dance{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #dance_area_block{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+
+    .description_dance .main_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .block_text{
+        margin-top: auto;
+        margin-bottom: 30px;
+    }
+
+    .text_tour_dance{
+        padding-bottom: 30px;
+    }
+
+    #dance_tour{
+        background-position: -394px -39px;
+    }
+
+    .text_tour_dance p{
+        margin-bottom: 10px;
+    }
+
+    .description_dance .block_text{
+        margin-top: 50px;
+    }
+
+    #prices{
+        background-position: -712px -56px;
+    }
+
+    .area_prices .block_text h1{
+        font-size: max(14pt, 2vw);
+    }
+
+    .description_dance p{
+        margin-bottom: 40px;
+    }
+
+    .img_cover_02{
+        grid-row-start: 1;
+    }
+
+    #subScribe{
+        background-position: -214px 15px;
+    }
+
+    #subScribe form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    #subScribe form input{
+        width: auto;
+        margin-bottom: 10px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .text_tour_dance p, .area_prices .block_text p, .description_dance p{
+        font-size: max(8pt, 2vw);
+    }
+
+
+    #dance_tour .text_tour_dance{
+        padding-bottom: 50px;
+    }
+
+   
+}

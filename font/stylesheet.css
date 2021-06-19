@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Cervino Extra Bold Condensed';
+    src: url('Cervino-ExtraBoldCondensed.eot');
+    src: local('Cervino Extra Bold Condensed'), local('Cervino-ExtraBoldCondensed'),
+        url('Cervino-ExtraBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-ExtraBoldCondensed.woff2') format('woff2'),
+        url('Cervino-ExtraBoldCondensed.woff') format('woff'),
+        url('Cervino-ExtraBoldCondensed.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Bold Condensed';
+    src: url('Cervino-BoldCondensedItalic.eot');
+    src: local('Cervino Bold Condensed Italic'), local('Cervino-BoldCondensedItalic'),
+        url('Cervino-BoldCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-BoldCondensedItalic.woff2') format('woff2'),
+        url('Cervino-BoldCondensedItalic.woff') format('woff'),
+        url('Cervino-BoldCondensedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Black Condensed';
+    src: url('Cervino-BlackCondensedItalic.eot');
+    src: local('Cervino Black Condensed Italic'), local('Cervino-BlackCondensedItalic'),
+        url('Cervino-BlackCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-BlackCondensedItalic.woff2') format('woff2'),
+        url('Cervino-BlackCondensedItalic.woff') format('woff'),
+        url('Cervino-BlackCondensedItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Black Condensed';
+    src: url('Cervino-BlackCondensed.eot');
+    src: local('Cervino Black Condensed'), local('Cervino-BlackCondensed'),
+        url('Cervino-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-BlackCondensed.woff2') format('woff2'),
+        url('Cervino-BlackCondensed.woff') format('woff'),
+        url('Cervino-BlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Condensed';
+    src: url('Cervino-RegularCondensed.eot');
+    src: local('Cervino Condensed'), local('Cervino-RegularCondensed'),
+        url('Cervino-RegularCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-RegularCondensed.woff2') format('woff2'),
+        url('Cervino-RegularCondensed.woff') format('woff'),
+        url('Cervino-RegularCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Condensed';
+    src: url('Cervino-RegularCondensedItalic.eot');
+    src: local('Cervino Condensed Italic'), local('Cervino-RegularCondensedItalic'),
+        url('Cervino-RegularCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-RegularCondensedItalic.woff2') format('woff2'),
+        url('Cervino-RegularCondensedItalic.woff') format('woff'),
+        url('Cervino-RegularCondensedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Extra Bold Condensed';
+    src: url('Cervino-ExtraBoldCondensedItalic.eot');
+    src: local('Cervino Extra Bold Condensed Italic'), local('Cervino-ExtraBoldCondensedItalic'),
+        url('Cervino-ExtraBoldCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-ExtraBoldCondensedItalic.woff2') format('woff2'),
+        url('Cervino-ExtraBoldCondensedItalic.woff') format('woff'),
+        url('Cervino-ExtraBoldCondensedItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Extra Light Condensed';
+    src: url('Cervino-ExtraLightCondensedItalic.eot');
+    src: local('Cervino Extra Light Condensed Italic'), local('Cervino-ExtraLightCondensedItalic'),
+        url('Cervino-ExtraLightCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-ExtraLightCondensedItalic.woff2') format('woff2'),
+        url('Cervino-ExtraLightCondensedItalic.woff') format('woff'),
+        url('Cervino-ExtraLightCondensedItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Bold Condensed';
+    src: url('Cervino-BoldCondensed.eot');
+    src: local('Cervino Bold Condensed'), local('Cervino-BoldCondensed'),
+        url('Cervino-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-BoldCondensed.woff2') format('woff2'),
+        url('Cervino-BoldCondensed.woff') format('woff'),
+        url('Cervino-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Semi Bold Condensed';
+    src: url('Cervino-SemiBoldCondensed.eot');
+    src: local('Cervino Semi Bold Condensed'), local('Cervino-SemiBoldCondensed'),
+        url('Cervino-SemiBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-SemiBoldCondensed.woff2') format('woff2'),
+        url('Cervino-SemiBoldCondensed.woff') format('woff'),
+        url('Cervino-SemiBoldCondensed.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Semi Bold Condensed';
+    src: url('Cervino-SemiBoldCondensedItalic.eot');
+    src: local('Cervino Semi Bold Condensed Italic'), local('Cervino-SemiBoldCondensedItalic'),
+        url('Cervino-SemiBoldCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-SemiBoldCondensedItalic.woff2') format('woff2'),
+        url('Cervino-SemiBoldCondensedItalic.woff') format('woff'),
+        url('Cervino-SemiBoldCondensedItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Light Condensed';
+    src: url('Cervino-LightCondensed.eot');
+    src: local('Cervino Light Condensed'), local('Cervino-LightCondensed'),
+        url('Cervino-LightCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-LightCondensed.woff2') format('woff2'),
+        url('Cervino-LightCondensed.woff') format('woff'),
+        url('Cervino-LightCondensed.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Light Condensed';
+    src: url('Cervino-LightCondensedItalic.eot');
+    src: local('Cervino Light Condensed Italic'), local('Cervino-LightCondensedItalic'),
+        url('Cervino-LightCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-LightCondensedItalic.woff2') format('woff2'),
+        url('Cervino-LightCondensedItalic.woff') format('woff'),
+        url('Cervino-LightCondensedItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Medium Condensed';
+    src: url('Cervino-MediumCondensedItalic.eot');
+    src: local('Cervino Medium Condensed Italic'), local('Cervino-MediumCondensedItalic'),
+        url('Cervino-MediumCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-MediumCondensedItalic.woff2') format('woff2'),
+        url('Cervino-MediumCondensedItalic.woff') format('woff'),
+        url('Cervino-MediumCondensedItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cervino Extra Light Condensed';
+    src: url('Cervino-ExtraLightCondensed.eot');
+    src: local('Cervino Extra Light Condensed'), local('Cervino-ExtraLightCondensed'),
+        url('Cervino-ExtraLightCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-ExtraLightCondensed.woff2') format('woff2'),
+        url('Cervino-ExtraLightCondensed.woff') format('woff'),
+        url('Cervino-ExtraLightCondensed.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Thin Condensed';
+    src: url('Cervino-ThinCondensed.eot');
+    src: local('Cervino Thin Condensed'), local('Cervino-ThinCondensed'),
+        url('Cervino-ThinCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-ThinCondensed.woff2') format('woff2'),
+        url('Cervino-ThinCondensed.woff') format('woff'),
+        url('Cervino-ThinCondensed.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Medium Condensed';
+    src: url('Cervino-MediumCondensed.eot');
+    src: local('Cervino Medium Condensed'), local('Cervino-MediumCondensed'),
+        url('Cervino-MediumCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-MediumCondensed.woff2') format('woff2'),
+        url('Cervino-MediumCondensed.woff') format('woff'),
+        url('Cervino-MediumCondensed.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cervino Thin Condensed';
+    src: url('Cervino-ThinCondensedItalic.eot');
+    src: local('Cervino Thin Condensed Italic'), local('Cervino-ThinCondensedItalic'),
+        url('Cervino-ThinCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cervino-ThinCondensedItalic.woff2') format('woff2'),
+        url('Cervino-ThinCondensedItalic.woff') format('woff'),
+        url('Cervino-ThinCondensedItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+

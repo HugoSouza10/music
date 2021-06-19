@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-ExtraLight.eot');
+    src: local('Mostin Extra Light'), local('Mostin-ExtraLight'),
+        url('Mostin-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-ExtraLight.woff2') format('woff2'),
+        url('Mostin-ExtraLight.woff') format('woff'),
+        url('Mostin-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-Black.eot');
+    src: local('Mostin Black'), local('Mostin-Black'),
+        url('Mostin-Black.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-Black.woff2') format('woff2'),
+        url('Mostin-Black.woff') format('woff'),
+        url('Mostin-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-Bold.eot');
+    src: local('Mostin Bold'), local('Mostin-Bold'),
+        url('Mostin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-Bold.woff2') format('woff2'),
+        url('Mostin-Bold.woff') format('woff'),
+        url('Mostin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-Medium.eot');
+    src: local('Mostin Medium'), local('Mostin-Medium'),
+        url('Mostin-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-Medium.woff2') format('woff2'),
+        url('Mostin-Medium.woff') format('woff'),
+        url('Mostin-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-Regular.eot');
+    src: local('Mostin Regular'), local('Mostin-Regular'),
+        url('Mostin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-Regular.woff2') format('woff2'),
+        url('Mostin-Regular.woff') format('woff'),
+        url('Mostin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-Thin.eot');
+    src: local('Mostin Thin'), local('Mostin-Thin'),
+        url('Mostin-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-Thin.woff2') format('woff2'),
+        url('Mostin-Thin.woff') format('woff'),
+        url('Mostin-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-Light.eot');
+    src: local('Mostin Light'), local('Mostin-Light'),
+        url('Mostin-Light.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-Light.woff2') format('woff2'),
+        url('Mostin-Light.woff') format('woff'),
+        url('Mostin-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mostin';
+    src: url('Mostin-Outline.eot');
+    src: local('Mostin Outline'), local('Mostin-Outline'),
+        url('Mostin-Outline.eot?#iefix') format('embedded-opentype'),
+        url('Mostin-Outline.woff2') format('woff2'),
+        url('Mostin-Outline.woff') format('woff'),
+        url('Mostin-Outline.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
