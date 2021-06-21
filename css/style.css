@@ -434,7 +434,9 @@ footer{
 @media (max-width: 450px){
     /*header*/
 
-    
+    .block_text_header{
+        margin-top: auto;
+    }
 
     #button_default{
         padding: 10px 50px 10px;
