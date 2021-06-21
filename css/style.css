@@ -362,9 +362,7 @@ figcaption p{
 
 #subScribe{
     background-color: #FF6309;
-    background-image: url('../img/bg_subscribe.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 #subScribe form{
@@ -397,6 +395,9 @@ footer{
 /*Responsividade*/
 
 @media (max-width: 1024px){
+    #banner_header{
+        background-image: url('../img/banner_header-min_mobile.jpg');
+    }
 
     .area_dance{
         grid-template-columns: repeat(2,1fr);
@@ -414,6 +415,10 @@ footer{
 
 @media (max-width: 768px){
 
+    .block_text_header{
+        margin-top: 31px;
+    }
+
     .area_prices{
         grid-template-columns: repeat(1,1fr);
     }
@@ -429,9 +434,7 @@ footer{
 @media (max-width: 450px){
     /*header*/
 
-    #banner_header{
-        background-position-x: -668px;
-    }
+    
 
     #button_default{
         padding: 10px 50px 10px;
@@ -464,7 +467,7 @@ footer{
     }
 
     #dance_tour{
-        background-position: -394px -39px;
+        background-image: none;
     }
 
     .text_tour_dance p{
@@ -476,7 +479,7 @@ footer{
     }
 
     #prices{
-        background-position: -712px -56px;
+       background-image: none;
     }
 
     .area_prices .block_text h1{
