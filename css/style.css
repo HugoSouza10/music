@@ -415,6 +415,9 @@ footer{
 
 @media (max-width: 768px){
 
+    .block_text_header{
+        margin-top: 31px;
+    }
 
     .area_prices{
         grid-template-columns: repeat(1,1fr);
@@ -431,7 +434,9 @@ footer{
 @media (max-width: 450px){
     /*header*/
 
-
+    .block_text_header{
+        margin-top: auto;
+    }
 
     #button_default{
         padding: 10px 50px 10px;
