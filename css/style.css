@@ -46,6 +46,77 @@ ul{
 }
 
 
+#icone_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+
+.line1, .line2, .line3{
+    transition: 0.5s ease;
+    background-color: #fff;
+    width: 100%;
+    height: 3px;
+}
+
+#menu{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #303030;
+    padding: 30px;
+    height: 100vh;
+    width: 20%;
+    font-family: myriadPro;
+    font-size: max(12pt, 1vw);
+    text-transform: uppercase;
+    margin-right: -400px;
+    transition: 0.5s ease;
+}
+
+.menuOpen{
+    margin-left: 0;
+}
+
+
+
+.active{
+    color: #FF6309;
+}
+
+#menu ul{
+    height: 100%;
+    line-height: 70px;
+}
+
+#menu ul li{
+    cursor: pointer;
+    border-bottom: 1px solid #4d4c4b;
+}
+.closeMenu .line2{
+    transform: rotate(45deg);
+    position: relative;
+}
+
+#menu ul li:hover{
+    color: #FF6309;
+}
+
+.closeMenu .line3{
+    transform: rotate(-45deg);
+    position: relative;
+    top: -42%;
+}
+
+.closeMenu .line1{
+    margin-left: 100px;
+}
+
+/*Podemos criar classe com outra classe dentro dela*/
 /*header*/
 
 header{
