@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding: 0;
+    background-color: black;
 }
 
 /*fontes*/
@@ -27,6 +28,24 @@ body{
 
 
 
+.modal_box{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background:rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100vw;
+    bottom: 0;
+    z-index: 1;
+    transition: 0.5s;
+    
+
+}
+
+.modalBoxEfectClose{
+        opacity: 0%;
+}
 
 a{
     text-decoration: none;
@@ -78,9 +97,7 @@ ul{
     transition: 0.5s ease;
 }
 
-.menuOpen{
-   margin-right: 0;
-}
+
 
 
 
